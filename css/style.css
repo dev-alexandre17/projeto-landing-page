@@ -18,7 +18,10 @@ section
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(255, 255, 255);
+    background-image: url('/imagens/fotogrofo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 header 
@@ -31,6 +34,9 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: rgb(82, 64, 64);
+    height: 100px;
+
 }
 
 header .logo
@@ -38,6 +44,15 @@ header .logo
 {
     position: relative;
     max-width: 80px;
+
+}
+
+header h1
+
+{
+
+    margin-right: 250px;
+
 }
 
 header url 
@@ -45,22 +60,33 @@ header url
 {
     position: relative;
     display: flex;
+   
 }
 
 header ul li 
 
 {
-    list-style: none;
+
+    display: inline;
+    margin-left: -30px;
+   
 }
 
 header ul li a 
 
 {
-    display: inline;
-    color: black;
-    text-decoration: none;
-    margin-left: 100px;
+
+    color: white;
+    margin-left: 70px;
     margin-top: 100px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+
 }
 
 .conteudo
@@ -88,10 +114,12 @@ header ul li a
 
 {
 
+    margin-top: 100px;
     color: 333px;
-    font-size: 3em;
-    line-height: 1.4em;
+    font-size: 2.5em;
+    line-height: 1.2em;
     font-weight: 50px;
+    margin-right: 200px;
 }
 
 .conteudo .caixa_de_texto h2 span
@@ -101,13 +129,16 @@ header ul li a
     color: rgb(56, 37, 37);
     font-size: 1.2em;
     font-weight: 900px;
+   
 }
 
 .conteudo .caixa_de_texto p
 
 {
 
-    color: black;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-size: large;
 
 }
 
@@ -118,29 +149,10 @@ header ul li a
     margin-top: 20px;
     padding: 8px 20px;
     background: rgb(82, 64, 64);
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 40px;
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
 
-}
-
-.conteudo .imagem_da_camera1 
-
-{
-
-    width: 600px;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
-    margin-top: 50px;
-
-}
-
-.conteudo .imagem_da_camera1 img 
-
-{
-
-    max-width: 340px;
 }

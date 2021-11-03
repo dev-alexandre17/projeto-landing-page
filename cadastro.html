@@ -8,37 +8,33 @@
     <title>Cadastro</title>
 </head>
 <body>
-    <section>
-        <div class = "cadastro_da_pagina">
-            <form action="dados.php" class="formulario" method="post">
-                <p> CADASTRA-SE GRATUITAMENTE </p>
-                <div class="field">
-                    <label for="nome">Nome</label>
-                    <input type="text" name="nome" placeholder="Digite seu nome" required>
-                </div>
-                <div class="field">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" placeholder="Digite seu email" required>
-                </div>
-                <div class="field">
-                    <label for="senha">Senha</label>
-                    <input type="text" name="senha" placeholder="Digite a senha" required>    
-                </div>
-                <div class="field">
-                    <label for="telefone">Telefone</label>
-                    <input type="text" name="telefone" placeholder="Informe o telefone" required>
-                </div>
-                <div class="field">
-                    <label for="cpf">CPF</label>
-                    <input type="text" name="cpf" placeholder="Informe seu CPF" required>
-                </div>
-                <div class="field">
-                    <input type="checkbox" name="novidades" value="sim" checked><label for="sim">Aceito os termos de uso e a política de privacidade</label>
-                </div>
-                <br>
-                <input type="submit" name="acao" value="Enviar">
-            </form>
-        </div>
-    <section>
+    <div class="wrapper">
+        <h1>Sign Up</h1>
+        <form action="#">
+          <div class="dbl-field">
+            <div class="field">
+              <input type="text" name="name" placeholder="Nome completo">
+            </div>
+            <div class="field">
+              <input type="text" name="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="dbl-field">
+            <div class="field">
+              <input type="text" name="phone" placeholder="Telefone">
+            </div>
+            <div class="field">
+              <input type="text" name="website" placeholder="Senha">
+            </div>
+          </div>
+          <div class="button-area">
+            <button type="submit">Sign Up</button>
+            <span></span>
+          </div>
+        </form>
+      </div>
+      <script src="script.js"></script>
+    </body>
+    </html>
 </body>
 </html>

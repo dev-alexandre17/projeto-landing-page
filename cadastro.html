@@ -8,33 +8,40 @@
     <title>Cadastro</title>
 </head>
 <body>
-    <div class="wrapper">
-        <h1>Sign Up</h1>
-        <form action="#">
-          <div class="dbl-field">
-            <div class="field">
-              <input type="text" name="name" placeholder="Nome completo">
+  <div class="box">
+    <form action="">
+      <legend>Sign Up</legend>
+            <br>
+            <div class="inputBox">
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+                <label for="nome" class="labelInput">Name</label>
             </div>
-            <div class="field">
-              <input type="text" name="email" placeholder="Email">
+            <br><br>
+            <div class="inputBox">
+                <input type="text" name="email" id="email" class="inputUser" required>
+                <label for="email" class="labelInput">Email</label>
             </div>
-          </div>
-          <div class="dbl-field">
-            <div class="field">
-              <input type="text" name="phone" placeholder="Telefone">
+            <br><br>
+            <div class="inputBox">
+              <input type="text" name="senha" id="senha" class="inputUser" required>
+              <label for="senha" class="labelInput">Password</label>
             </div>
-            <div class="field">
-              <input type="text" name="website" placeholder="Senha">
+            <br><br>
+            <div class="inputBox">
+                <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                <label for="telefone" class="labelInput">Phone number</label>
             </div>
-          </div>
-          <div class="button-area">
-            <button type="submit">Sign Up</button>
-            <span></span>
-          </div>
-        </form>
-      </div>
-      <script src="script.js"></script>
-    </body>
-    </html>
+            <br><br>
+            <div class="inputBox">
+              <input type="text" name="endereco" id="endereco" class="inputUser" required>
+              <label for="endereco" class="labelInput">Address</label>
+            </div>
+            <br>
+            <input type="submit" name="submit" id="submit">
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
 </body>
 </html>

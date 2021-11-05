@@ -147,7 +147,7 @@ header ul li a:hover {
 
 }
 
-.conteudo .caixa_de_texto a 
+.conteudo .caixa_de_texto a
 
 {
     display: inline-block;
@@ -161,11 +161,3 @@ header ul li a:hover {
     text-decoration: none;
 
 }
-
-@media screen and (max-width: 600px) {
-    section, aside {
-        width: 100%;
-        padding: 0;
-    }
-}
-

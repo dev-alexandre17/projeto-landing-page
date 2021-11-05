@@ -11,14 +11,10 @@
 section
 
 {
-    position: relative;
-    width: 100%;
     min-height: 100vh;
     padding: 100px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-image: url('/imagens/fotogrofo.jpg');
+    background-image: url('/imagens/fotogrofo-hd.png');
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -51,7 +47,7 @@ header h1
 
 {
 
-    margin-right: 450px;
+    padding-right: 650px;
 
 }
 

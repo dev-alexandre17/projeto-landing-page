@@ -18,9 +18,7 @@
             border-radius: 15px;
             width: 25%;
         }
-        fieldset{
-            border: 3px solid rgb(62, 105, 148);
-        }
+
         legend{
             border: 1px solid rgb(107, 107, 107);;
             padding: 7px;

@@ -9,11 +9,11 @@
 </head>
 <body>
   <div class="box">
-    <form action="">
+    <form action="validacao.php" method="post">
       <legend>Sign Up</legend>
-            <br>
+        <br><br>
             <div class="inputBox">
-                <input type="text" name="nome" id="nome" class="inputUser" required>
+                <input type="text" name="name" id="nome" class="inputUser" required>
                 <label for="nome" class="labelInput">Name</label>
             </div>
             <br><br>
@@ -23,24 +23,18 @@
             </div>
             <br><br>
             <div class="inputBox">
-              <input type="text" name="senha" id="senha" class="inputUser" required>
+              <input type="text" name="password" id="senha" class="inputUser" required>
               <label for="senha" class="labelInput">Password</label>
             </div>
             <br><br>
             <div class="inputBox">
-                <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                <input type="tel" name="phoneNumber" id="telefone" class="inputUser" required>
                 <label for="telefone" class="labelInput">Phone number</label>
             </div>
             <br><br>
-            <div class="inputBox">
-              <input type="text" name="endereco" id="endereco" class="inputUser" required>
-              <label for="endereco" class="labelInput">Address</label>
-            </div>
-            <br>
-            <input type="submit" name="submit" id="submit">
-        </fieldset>
+            <input type="submit" id="submit" value="Send">
     </form>
-</div>
+  </div>
 </body>
 </html>
 </body>

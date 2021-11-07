@@ -44,7 +44,7 @@
   $user_phone_numer = $_POST["phoneNumber"];
   if ($user_name == "admin" && $user_email == "admin123@gmail.com" && $user_password == "123" &&
   $user_phone_numer == "(81) 99999-9999") {
-    print "<script> type='text/javascript'>alert('Dados válidados com sucesso');</script>";
+    print "<script> type='text/javascript'>alert('Dados válidados com sucesso!');</script>";
   } else { 
     print "<script> type='text/javascript'>alert('Dados inválidos. Tente novamente mais tarde.');</script>";
   }

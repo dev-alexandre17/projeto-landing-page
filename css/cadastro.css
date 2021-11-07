@@ -1,7 +1,7 @@
 body
 {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("/imagens/fundo-pagina-cadastro-hd.png");
+    background-image: url("/imagens/beach-g23ca3ce60_1920.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 700px;
@@ -25,10 +25,10 @@ body
 
 legend
 {
-    border: 1px solid rgb(107, 107, 107);
+    border: 1px solid rgb(47, 96, 168);
     padding: 7px;
     text-align: center;
-    background-color: rgb(107, 107, 107);
+    background-color: rgb(47, 96, 168);
     border-radius: 8px;
 }
 
@@ -68,7 +68,7 @@ legend
         
 #submit
 {
-    background-color: rgb(107, 107, 107);
+    background-color: rgb(47, 96, 168);
     width: 100%;
     border: none;
     padding: 15px;
@@ -76,6 +76,7 @@ legend
     font-size: 15px;
     cursor: pointer;
     border-radius: 10px;
+
 }
 
 #submit:hover

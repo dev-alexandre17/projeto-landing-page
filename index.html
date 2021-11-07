@@ -5,19 +5,19 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/home.css" media="screen"/>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
         <title>Cameras Website</title>
     </head>
     <body>
         <section>
             <!-- ALTERAÇÃO DE NAV BAR APENAS NO CURSO PARA NÃO CAUSAR PROBLEMAS-->
             <header>
-                <a href="#" class="logo"><img src="logo/logo_pagina.png"></a>
-                    <h1> Photographs space </h1>
+                    <h1> Space photographs </h1>
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">Photographs</a></li>
+                            <li><a href="#">Gallery</a></li>
                             <li><a href="#">Contact</a></li>
-                            <li><a href="#">Newsletter</a></li>
+                            <li><a href="#">LGPD</a></li>
                             <li><a href="formulario.php">Sign up</a></li>
                         </ul>
             </header>
@@ -30,5 +30,95 @@
                 </div>
             </div>
         </section>
+        <div class="introducao">
+            <h2> What's a photograph </h2>
+            <p>Technically, photography is the art of capturing and processing light using <br> a sensor or film. But the essence of photography is to treasure moments and <br> share them with the world. Quite simple, but the action itself is capable of <br> changing people’s perceptions. A photo can have a deeper meaning and tell <br> thousand important stories. One of the best examples is photos taken during <br> the war.There are many eye-opening photos circulated during the war. Some <br> photos snap the winners’ glorious moment while the others show the utter <br> devastation of citizens caught in the crossfire. But that’s not all, folks; <br> photography also has the nature of having multiple interpretations, especially <br> in modern photography and art. Everyone has their own “hot take” when it <br> comes to judging an image. Some see the bigger “picture,” while others take <br> it as an analogy to life, transforming it into those “wise” quotes. As you widen <br> your knowledge about photography, aesthetics, and techniques, you can unveil <br> ven more meaning behind a single photograph.</p>
+            <img src="/imagens/man-g82ec839ff_640.jpg">
+        </div>
+        <div class="autoplay-images">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="/pictures/panoramic-landscape-g78ff47bdc_1920.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/pictures/beach-g0f8424765_1920.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/pictures/marriage-gc4bc69a74_1920.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/pictures/heron-g81c256c25_1920.jpg">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        </div>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              spaceBetween: 30,
+              centeredSlides: true,
+              autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+              },
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+          </script>
+        <section class="features" id="features">
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-magic"></i>
+                    <h3>Amazing photos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque enim ad neque. Voluptatem alias beatae accusamus laudantium nisi assumenda libero.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Privacy protect</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque enim ad neque. Voluptatem alias beatae accusamus laudantium nisi assumenda libero.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-globe"></i>
+                    <h3>Tech support</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque enim ad neque. Voluptatem alias beatae accusamus laudantium nisi assumenda libero.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location tracking</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque enim ad neque. Voluptatem alias beatae accusamus laudantium nisi assumenda libero.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Cheap price</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque enim ad neque. Voluptatem alias beatae accusamus laudantium nisi assumenda libero.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-headset"></i>
+                    <h3>Good evalutions</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque enim ad neque. Voluptatem alias beatae accusamus laudantium nisi assumenda libero.</p>
+                </div>
+            </div>
+        </section>  
+        <div class="footer">
+            <footer>
+                <h2> Follow us </h2>
+                    <img src="/icones-redes-sociais/facebook_108044.png">
+                    <img src="/icones-redes-sociais/instagram_108043.png">
+                    <img src="/icones-redes-sociais/whatsapp_108042.png">
+                    <img src="/icones-redes-sociais/youtube_108041.png">
+                    <img src="/icones-redes-sociais/messengerf_108040.png">
+            </footer>
+        </div>     
     </body>
 </html>

@@ -9,7 +9,6 @@
 }
 
 section
-
 {
     min-height: 100vh;
     padding: 100px;
@@ -17,7 +16,6 @@ section
     background-image: url('/imagens/fotogrofo-hd.png');
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
 header 
@@ -32,45 +30,33 @@ header
     align-items: center;
     background: rgb(82, 64, 64);
     height: 100px;
-
 }
 
 header .logo
-
 {
     position: relative;
     max-width: 80px;
-
 }
 
 header h1
-
 {
-
     padding-right: 650px;
-
 }
 
 header url 
-
 {
     position: relative;
     display: flex;
-   
 }
 
 header ul li 
-
 {
-
-    display: inline;
-   
+    display: inline;  
 }
 
 header ul li a 
 
 {
-
     color: white;
     margin-left: -10px;
     margin-top: 100px;
@@ -81,40 +67,30 @@ header ul li a
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 5px;
-
 }
 
-header ul li a:hover {
-
-    color:rgb(0, 0, 0);
-    
+header ul li a:hover 
+{
+    color:rgb(0, 0, 0);   
 }
 
 .conteudo
-
 {
-
     position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .conteudo .caixa_de_texto 
-
 {
-
     position: relative;
     max-width: 600px;
-
 }
 
 .conteudo .caixa_de_texto h2
-
 {
-
     margin-top: 100px;
     color: 333px;
     font-size: 2.5em;
@@ -124,27 +100,20 @@ header ul li a:hover {
 }
 
 .conteudo .caixa_de_texto h2 span
-
 {
-
     color: rgb(56, 37, 37);
     font-size: 1.2em;
     font-weight: 900px;
-   
 }
 
 .conteudo .caixa_de_texto p
-
 {
-
     color: rgb(0, 0, 0);
     margin-top: 10px;
     font-size: large;
-
 }
 
 .conteudo .caixa_de_texto a
-
 {
     display: inline-block;
     margin-top: 20px;
@@ -155,5 +124,4 @@ header ul li a:hover {
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
-
 }
